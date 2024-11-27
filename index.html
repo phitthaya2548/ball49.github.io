@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">ประวัติของบอล</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">บริการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal"data-bs-target="#myModal">ติดต่องาน</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#mySlider" data-bs-slide-to="1"></li>
+                <li data-bs-target="#mySlider" data-bs-slide-to="2"></li>
+                <li data-bs-target="#mySlider" data-bs-slide-to="3"></li>
+                <li data-bs-target="#mySlider" data-bs-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ม.4</h1>
+                            <p class="custom-text">สมัยอ้ายเอาะๆ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ม.5</h1>
+                            <p class="custom-text">เริ่มเป็นเด็กเรียน</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ม.6</h1>
+                            <p class="custom-text">หล่อจัด</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-4">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ปี 1</h1>
+                            <p class="custom-text">สมัยเข้าแต่ร้านเหล้า</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-5">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ปี 2</h1>
+                            <p class="custom-text">แต่ F</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <a href="https://www.instagram.com/x.ball_1" target="_blank">
+                        <i class="fas fa-user-tie fa-3x mb-2"></i>
+                    </a>
+                    <h3>เกี่ยวกับเรา</h3>
+                    <p>ชื่อ ปรัชญา มุกดาการ</p>
+                    <p>อายุ 19 สถานะ โสด</p>
+                    <p>เรียนที่ มหาวิทยาลัยเทคโนโลยีอีสานขอนแก่น</p>
+                    <p>ติดต่อได้ที่ IG <a href="https://www.instagram.com/x.ball_1" target="_blank">x.ball_1</a></p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-camera fa-3x mb-2"></i>
+                    <h3>ชอบถ่ายรูป</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, quisquam assumenda. Amet temporibus
+                        et labore, earum quo reprehenderit illum odio.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-photo-video fa-3x mb-2"></i>
+                    <h3>ภาพ</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, quisquam assumenda. Amet temporibus
+                        et labore, earum quo reprehenderit illum odio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5 text-center">
+                        <h1>เกี่ยวกับเรา</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus sunt soluta minima hic consequatur eius, cumque magni reiciendis provident.
+                            
+                        </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallary" class="p-5">
+        <div class="container">
+            <h1 class="text-center">คนมันหล่อเท่</h1>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nihil corrupti
+                suscipit eligendi pariatur repellendus odit, iste cum, nostrum ipsum dolorum unde, facere voluptates
+                neque voluptatem dicta minima temporibus blanditiis.</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://scontent.fnak1-1.fna.fbcdn.net/v/t39.30808-6/297879718_1985864345137558_2129423811482998192_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=W7r13MQ5ZPUQ7kNvgFYEp1b&_nc_zt=23&_nc_ht=scontent.fnak1-1.fna&_nc_gid=AywqAcTh0ZGtacbzjl2doLn&oh=00_AYBPDokm9l0rOGZLwJT2yvgbrh6SPRHhAZ5YOlzweNTDzw&oe=673E87D8" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://scontent.fnak1-1.fna.fbcdn.net/v/t39.30808-6/297879718_1985864345137558_2129423811482998192_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=W7r13MQ5ZPUQ7kNvgFYEp1b&_nc_zt=23&_nc_ht=scontent.fnak1-1.fna&_nc_gid=AywqAcTh0ZGtacbzjl2doLn&oh=00_AYBPDokm9l0rOGZLwJT2yvgbrh6SPRHhAZ5YOlzweNTDzw&oe=673E87D8" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://scontent.fnak1-1.fna.fbcdn.net/v/t39.30808-6/297879718_1985864345137558_2129423811482998192_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=W7r13MQ5ZPUQ7kNvgFYEp1b&_nc_zt=23&_nc_ht=scontent.fnak1-1.fna&_nc_gid=AywqAcTh0ZGtacbzjl2doLn&oh=00_AYBPDokm9l0rOGZLwJT2yvgbrh6SPRHhAZ5YOlzweNTDzw&oe=673E87D8" alt=""
+                        class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="music-player mx-auto">
+            <h3 class="music-title">🎶 เพลงโปรดของฉัน 🎶</h3>
+            <div class="video-container">
+                <iframe id="youtubePlayer" class="music-iframe" 
+                width="1218" height="685" 
+                src="https://www.youtube.com/embed/m5sXdFLq0Pk?autoplay=1&mute=1&loop=1&playlist=m5sXdFLq0Pk" 
+                title="Zweed n' Roll - โลกใบเก่า (Tired) [Official Video]" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media; clipboard-write; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <script>
+            // พยายามเล่นวิดีโอทันทีเมื่อโหลดหน้าเว็บเสร็จ
+            window.onload = () => {
+                const player = document.getElementById('youtubePlayer');
+                player.src += "&autoplay=1&mute=1";
+            };
+        </script>
+        
+        
+                
+    </section>
+    
+    <footer class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy Phatchaya Official 2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class = "modal fade" id ="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ติดต่องาน</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="send_email.php">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="ป้อนอีเมลของคุณ" class="form-control mb-2">
+                        </div>
+                        <div class="form-group">
+                            <label>หัวข้อ</label>
+                            <input type="text" placeholder="เสนอหัวข้องานของคุณ" class="form-control mb-2">
+                        </div>
+                        <div class="form-group">
+                            <label>รายละเอียด</label>
+                            <textarea type="text"  rows=20 cols=10 class="form-control mb-2"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                    <button class="btn btn-success">ส่งข้อมูล</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+/* การตั้งค่าพื้นฐาน */
+body {
+    font-family: 'Itim', cursive;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ตกแต่ง Navbar */
+.navbar {
+    background-color: #2c3e50;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f39c12 !important;
+}
+
+.nav-link {
+    color: #ecf0f1 !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f39c12 !important;
+}
+
+/* ตกแต่ง Carousel */
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-image-1 {
+    background-image: url("image/pic1.jpg");
+    background-size: contain;
+}
+
+.carousel-image-2 {
+    background-image: url("image/pic2.jpg");
+    background-size: contain;
+}
+
+
+.carousel-image-3 {
+    background-image: url("image/pic3.jpg");
+    background-size: contain;
+}
+.carousel-image-4 {
+    background-image: url("image/pic4.jpg");
+    background-size: contain;
+}
+.carousel-image-5 {
+    background-image: url("image/pic5.jpg");
+    background-size: contain;
+}
+
+.custom-text {
+    font-size: 1.5rem;
+    color: #f39c12;
+    text-shadow: 2px 2px 4px #000;
+    margin-top: 10px;
+}
+
+/* Section "เกี่ยวกับเรา" */
+#about {
+    min-height: 400px;
+    position: relative;
+    background-image: url("image/iceland-5586225_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    z-index: 2;
+    position: relative;
+    margin-top: 50px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    z-index: 2;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Section "บริการ" */
+#service {
+    padding: 60px 0;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+#service h3 {
+    color: #f39c12;
+    margin-bottom: 20px;
+}
+
+#service i {
+    color: #f39c12;
+    margin-bottom: 15px;
+}
+
+#service p {
+    font-size: 1rem;
+}
+
+/* Gallery Section */
+#gallary {
+    padding: 60px 0;
+}
+
+#gallary h1 {
+    font-size: 2.5rem;
+    color: #f39c12;
+    margin-bottom: 20px;
+}
+
+#gallary p {
+    color: #2c3e50;
+}
+
+#gallary img {
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#gallary img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Form */
+.modal-content {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.modal-header {
+    border-bottom: 1px solid #f39c12;
+}
+
+.modal-footer {
+    border-top: 1px solid #f39c12;
+}
+
+.btn-success {
+    background-color: #f39c12;
+    border: none;
+    color: #2c3e50;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* เอฟเฟกต์เพิ่มเติม */
+.btn {
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+/* ตกแต่ง Player ของเพลงและวิดีโอ */
+.music-player {
+    margin: 30px auto;
+    max-width: 720px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+.music-iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    border: 2px solid #f39c12;
+}
+
+/* สไตล์หัวข้อของ Player */
+.music-title {
+    text-align: center;
+    color: #f39c12;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อเลื่อนเมาส์เหนือ Player */
+.music-player:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
